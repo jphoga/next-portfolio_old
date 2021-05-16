@@ -1,0 +1,179 @@
+/* *
+*::after,
+*::before {
+  box-sizing: border-box;
+} */
+
+.iphone {
+  box-sizing: border-box;
+  z-index: 999;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #999,
+    0 0 30px 0 rgba(0, 0, 0, 0.7);
+  border: 5px solid #d9dbdc;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 50px;
+  height: 777px;
+  width: 373px;
+  position: relative;
+  margin-top: -60px;
+  transform: scale(0.8);
+}
+
+.top {
+  box-sizing: border-box;
+  padding: 5px 110px 40px;
+  position: relative;
+}
+
+.speaker {
+  box-sizing: border-box;
+  display: block;
+  width: 70px;
+  height: 6px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #292728;
+}
+
+.camera {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+  background: #333;
+}
+
+.sensor {
+  box-sizing: border-box;
+  display: block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  background: #333;
+  margin-top: -5px;
+  border-radius: 50%;
+}
+
+.topbar,
+.bottombar {
+  box-sizing: border-box;
+  display: block;
+  width: 373px;
+  height: 15px;
+  border-left: 5px solid #bbb;
+  border-right: 5px solid #bbb;
+  position: absolute;
+  left: -5px;
+}
+
+.topbar {
+  box-sizing: border-box;
+  top: 65px;
+}
+
+.bottombar {
+  box-sizing: border-box;
+  bottom: 65px;
+}
+
+.screen {
+  box-sizing: border-box;
+  background: #eee;
+  height: 577px;
+  width: 325px;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.9);
+  border-radius: 3px;
+  overflow: hidden;
+  background-image: url('/images/bitcoin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* img {
+  box-sizing: border-box;
+  width: 100%;
+} */
+
+.onoff,
+.up,
+.down,
+.sleep {
+  box-sizing: border-box;
+  display: block;
+  background: #ccc;
+  position: absolute;
+  border-radius: 2px 0 0 2px;
+}
+.onoff {
+  box-sizing: border-box;
+  height: 40px;
+  width: 3px;
+  top: 100px;
+  left: -8px;
+}
+
+.up,
+.down,
+.sleep {
+  box-sizing: border-box;
+  height: 60px;
+  width: 5px;
+  left: -10px;
+}
+
+.up {
+  box-sizing: border-box;
+  top: 170px;
+}
+
+.down {
+  box-sizing: border-box;
+  top: 250px;
+}
+
+.sleep {
+  box-sizing: border-box;
+  left: auto;
+  right: -10px;
+  top: 170px;
+  border-radius: 0 2px 2px 0;
+}
+
+.bottom {
+  box-sizing: border-box;
+  padding: 10px 0 0;
+}
+
+.span {
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #303233 0%,
+    #b5b7b9 50%,
+    #f0f2f2 69%,
+    #303233 100%
+  );
+  position: relative;
+}
+
+.span::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
