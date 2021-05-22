@@ -1,0 +1,28 @@
+.nav-container {
+  min-height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.link-container {
+  margin-left: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlink {
+  font-size: 24px;
+  opacity: 0.6;
+  font-style: normal;
+  /* font-weight: bold; */
+  letter-spacing: 0.03em;
+  line-height: 1;
+  color: black;
+  margin: 1.5rem
+}
+
+.navlink:hover {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
